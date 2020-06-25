@@ -1,0 +1,56 @@
+inventory:
+  armor:
+  - null
+  - null
+  - null
+  - null
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: WOODEN_AXE
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: SPRUCE_PLANKS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: STONE_BRICKS
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  level: 0
+  exp: 0.0

@@ -1,0 +1,196 @@
+game-time: 240
+lobby-time: 30
+Gameplay:
+  Spawn-Time: 3
+In-Game:
+  Kills: Kills
+  Killed: killed
+Economy:
+  Reward-Team: 0
+arenas:
+  Arena1:
+    max-players: 10
+    min-players: 2
+    end-location:
+      X: -3
+      Y: 5
+      Z: -149
+      Yaw: -88.0
+      Pitch: 10.0
+      World: world
+    lobby-location:
+      X: -3
+      Y: 5
+      Z: -149
+      Yaw: -88.0
+      Pitch: 10.0
+      World: world
+    blue-spawns:
+      '0':
+        X: 76
+        Y: 33
+        Z: 12
+        Yaw: 0.0
+        Pitch: -1.0
+        World: world
+    red-spawns:
+      '0':
+        X: -75
+        Y: 33
+        Z: -2
+        Yaw: -177.0
+        Pitch: -1.0
+        World: world
+    signs:
+      '0':
+        X: 2
+        Y: 36
+        Z: -5
+        Yaw: 0.0
+        Pitch: 0.0
+        World: world
+      '1':
+        X: -3
+        Y: 5
+        Z: -146
+        Yaw: 0.0
+        Pitch: 0.0
+        World: world
+  Arena2:
+    max-players: 10
+    min-players: 2
+    end-location:
+      X: -3
+      Y: 5
+      Z: -149
+      Yaw: -89.0
+      Pitch: -2.0
+      World: world
+    lobby-location:
+      X: -3
+      Y: 5
+      Z: -149
+      Yaw: -89.0
+      Pitch: -2.0
+      World: world
+    blue-spawns:
+      '0':
+        X: -79
+        Y: 16
+        Z: -281
+        Yaw: -42.0
+        Pitch: -5.0
+        World: world
+      '1':
+        X: -75
+        Y: 16
+        Z: -280
+        Yaw: -17.0
+        Pitch: 17.0
+        World: world
+      '2':
+        X: -78
+        Y: 16
+        Z: -275
+        Yaw: -55.0
+        Pitch: 0.0
+        World: world
+    red-spawns:
+      '0':
+        X: 59
+        Y: 15
+        Z: -281
+        Yaw: -310.0
+        Pitch: 6.0
+        World: world
+      '1':
+        X: 59
+        Y: 15
+        Z: -276
+        Yaw: -303.0
+        Pitch: -3.0
+        World: world
+      '2':
+        X: 54
+        Y: 15
+        Z: -281
+        Yaw: -317.0
+        Pitch: 4.0
+        World: world
+    signs:
+      '0':
+        X: -3
+        Y: 5
+        Z: -152
+        Yaw: 0.0
+        Pitch: 0.0
+        World: world
+  Arena3:
+    max-players: 10
+    min-players: 2
+    end-location:
+      X: -3
+      Y: 5
+      Z: -149
+      Yaw: -86.0
+      Pitch: -4.0
+      World: world
+    lobby-location:
+      X: -3
+      Y: 5
+      Z: -149
+      Yaw: -86.0
+      Pitch: -4.0
+      World: world
+    blue-spawns:
+      '0':
+        X: 208
+        Y: 4
+        Z: -207
+        Yaw: -53.0
+        Pitch: 12.0
+        World: world
+      '1':
+        X: 203
+        Y: 4
+        Z: -207
+        Yaw: -48.0
+        Pitch: -5.0
+        World: world
+      '2':
+        X: 203
+        Y: 4
+        Z: -202
+        Yaw: -50.0
+        Pitch: -1.0
+        World: world
+    red-spawns:
+      '0':
+        X: 303
+        Y: 4
+        Z: -112
+        Yaw: -231.0
+        Pitch: -3.0
+        World: world
+      '1':
+        X: 303
+        Y: 4
+        Z: -107
+        Yaw: -217.0
+        Pitch: -13.0
+        World: world
+      '2':
+        X: 298
+        Y: 4
+        Z: -107
+        Yaw: -215.0
+        Pitch: -9.0
+        World: world
+    signs:
+      '0':
+        X: -6
+        Y: 5
+        Z: -149
+        Yaw: 0.0
+        Pitch: 0.0
+        World: world

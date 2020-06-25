@@ -1,0 +1,237 @@
+{
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_shovel": "2019-05-21 07:02:12 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2019-05-21 07:02:25 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed": {
+    "criteria": {
+      "has_green_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_bed": {
+    "criteria": {
+      "has_purple_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_banner": {
+    "criteria": {
+      "has_yellow_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_carpet": {
+    "criteria": {
+      "has_green_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_shovel": "2019-05-21 07:02:12 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2019-05-21 06:53:29 +1000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_banner": {
+    "criteria": {
+      "has_green_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2019-05-21 07:02:25 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_banner": {
+    "criteria": {
+      "has_purple_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_hoe": "2019-05-21 06:57:26 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2019-05-21 07:02:25 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_carpet": {
+    "criteria": {
+      "has_purple_wool": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2019-05-21 07:02:25 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2019-05-21 07:02:25 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2019-05-21 07:02:25 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2019-05-21 06:57:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_hoe": "2019-05-21 06:57:26 +1000"
+    },
+    "done": true
+  },
+  "DataVersion": 1952
+}
