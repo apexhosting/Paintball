@@ -1,6 +1,10 @@
 welcome:
-  location: world, 1.009, 8.200, -148.563
   lines:
   - Default hologram. Change it with &b/hd edit welcome
   - '&3&lWelcome to PaintBall'
   - '&2&lTo get started join an arena, You will be returned here at the end'
+  position:
+    world: world
+    x: 1.009
+    y: 8.2
+    z: -148.563

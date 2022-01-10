@@ -3,15 +3,17 @@
 # with caution, and make sure you know what each option does before configuring.
 # For a reference for any variable inside this file, check out the Spigot wiki at
 # http://www.spigotmc.org/wiki/spigot-configuration/
-# 
+#
 # If you need help with the configuration or have any questions related to Spigot,
-# join us at the IRC or drop by our forums and leave a post.
-# 
-# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# join us at the Discord or drop by our forums and leave a post.
+#
+# Discord: https://www.spigotmc.org/go/discord
 # Forums: http://www.spigotmc.org/
 
 config-version: 12
 settings:
+  log-villager-deaths: true
+  log-named-deaths: true
   save-user-cache-on-stop-only: false
   bungeecord: false
   late-bind: false
@@ -60,9 +62,25 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    below-zero-generation-in-existing-chunks: true
+    seed-endcity: 10387313
+    seed-bastion: 30084232
+    seed-fortress: 30084232
+    seed-mansion: 10387319
+    seed-fossil: 14357921
+    seed-portal: 34222645
+    simulation-distance: default
+    thunder-chance: 100000
+    trident-despawn-rate: 1200
+    end-portal-sound-radius: 0
+    view-distance: default
     verbose: true
     mob-spawn-range: 6
     growth:
+      twistingvines-modifier: 100
+      weepingvines-modifier: 100
+      cavevines-modifier: 100
+      glowberry-modifier: 100
       bamboo-modifier: 100
       sweetberry-modifier: 100
       kelp-modifier: 100
@@ -80,6 +98,26 @@ world-settings:
       carrot-modifier: 100
       potato-modifier: 100
     entity-activation-range:
+      water: 16
+      villagers: 32
+      flying-monsters: 32
+      wake-up-inactive:
+        animals-max-per-tick: 4
+        animals-every: 1200
+        animals-for: 100
+        monsters-max-per-tick: 8
+        monsters-every: 400
+        monsters-for: 100
+        villagers-max-per-tick: 4
+        villagers-every: 600
+        villagers-for: 100
+        flying-monsters-max-per-tick: 8
+        flying-monsters-every: 200
+        flying-monsters-for: 100
+      villagers-work-immunity-after: 100
+      villagers-work-immunity-for: 20
+      villagers-active-for-panic: true
+      ignore-spectators: false
       raiders: 48
       animals: 32
       monsters: 32
@@ -131,3 +169,7 @@ world-settings:
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
     seed-outpost: 165745296
+  worldeditregentempworld:
+    verbose: false
+players:
+  disable-saving: false
