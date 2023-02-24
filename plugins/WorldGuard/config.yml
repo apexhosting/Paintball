@@ -3,6 +3,12 @@ regions:
         perform-on-next-start: false
         keep-names-that-lack-uuids: true
     use-creature-spawn-event: true
+    sql:
+        use: false
+        dsn: jdbc:mysql://localhost/worldguard
+        username: worldguard
+        password: worldguard
+        table-prefix: ''
     enable: true
     invincibility-removes-mobs: false
     nether-portal-protection: false
@@ -20,7 +26,6 @@ regions:
     announce-bypass-status: false
     use-paper-entity-origin: false
     cancel-chat-without-recipients: true
-    set-parent-on-claim: ''
 auto-invincible: false
 auto-invincible-group: false
 auto-no-drowning-group: false
@@ -47,11 +52,17 @@ protection:
     item-durability: true
     remove-infinite-stacks: false
     disable-xp-orb-drops: false
+    disable-obsidian-generators: false
     use-max-priority-association: false
 gameplay:
     block-potions: []
     block-potions-overly-reliably: false
     disable-conduit-effects: false
+simulation:
+    sponge:
+        enable: false
+        radius: 3
+        redstone: false
 default:
     pumpkin-scuba: false
     disable-health-regain: false
@@ -109,6 +120,9 @@ player-damage:
     disable-mob-damage: false
     disable-death-messages: false
     reset-fall-on-void-teleport: false
+chest-protection:
+    enable: false
+    disable-off-check: false
 crops:
     disable-creature-trampling: false
     disable-player-trampling: false
@@ -136,7 +150,6 @@ dynamics:
     snow-fall-blocks: []
     disable-crop-growth: false
     disable-coral-block-fade: false
-    disable-rock-growth: false
 blacklist:
     use-as-whitelist: false
     logging:
