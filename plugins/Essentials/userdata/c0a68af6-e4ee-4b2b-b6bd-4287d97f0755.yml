@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 103.100.225.214
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1641840147325
+  login: 1641840020040
+money: '0'
+last-account-name: robert_beckley
+logoutlocation:
+  world: 65faafdf-b65a-4951-9742-43f1ee4774d0
+  world-name: world
+  x: -0.9525425891700621
+  y: 4.5
+  z: -147.22554799006426
+  yaw: 94.1028823852539
+  pitch: -16.69997787475586
