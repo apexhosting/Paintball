@@ -1,0 +1,25 @@
+lobbies:
+  NetherInvasion:
+    spawn: world=world,x=262,y=104,z=-10,facing=east
+    exit: world=world,x=1,y=38,z=-37,facing=west
+    arenas:
+    - NetherInvasion
+  Towers:
+    spawn: world=world,x=-349,y=145,z=-287,facing=east
+    exit: world=world,x=1,y=38,z=-37,facing=west
+    arenas:
+    - Towers
+  Houses:
+    spawn: world=world,x=313,y=58,z=-282,facing=south
+    exit: world=world,x=1,y=38,z=-37,facing=west
+    arenas:
+    - Houses
+  MainLobby:
+    spawn: world=world,x=1,y=38,z=-37,facing=west
+    exit: world=world,x=1,y=38,z=-37,facing=west
+    arenas: []
+  ???:
+    spawn: world=world,x=5,y=269,z=-548,facing=west
+    exit: world=world,x=1,y=38,z=-37,facing=west
+    arenas:
+    - hub

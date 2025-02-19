@@ -1,0 +1,30 @@
+location: world:-24.500:43.000:-36.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 180.0
+down-origin: false
+pages:
+- lines:
+  - content: '&9 [Apex Hosting]'
+    height: 0.3
+  - content: Welcome to Apex Hosting Paintball
+    height: 0.3
+  - content: This is a default hologram, you can change it with /dh line edit intro
+      1 2
+    height: 0.3
+  - content: You can also view the names of all pre-made holograms with the command
+      /dh list
+    height: 0.3
+  - content: You can also edit the hologram file directly in FTP File Access/plugins/DecentHolograms/holograms
+    height: 0.3
+  - content: '&aTo get started, join an arena lobby through one of the arches behind
+      this pillar.'
+    height: 0.3
+  - content: '&aYou will be able to return here by using the clock item added to your
+      hotbar in the arena lobbies.'
+    height: 0.3
+  - content: '#ICON: NETHERITE_UPGRADE_SMITHING_TEMPLATE'
+    height: 1.0
+  actions: {}

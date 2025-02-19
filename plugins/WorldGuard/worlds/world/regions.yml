@@ -10,10 +10,79 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    __global__:
+    nether-invasion-lobby:
+        min: {x: 250, y: 100, z: -20}
+        max: {x: 273, y: 114, z: 2}
         members: {}
-        flags: {ice-form: deny, lava-fire: deny, vine-growth: deny, water-flow: deny,
-            invincible: allow, leaf-decay: deny, block-break: deny, tnt: deny, block-place: deny}
+        flags: {use: deny, block-break: deny, interact: deny, block-place: deny, respawn-anchors: deny}
         owners: {}
-        type: global
+        type: cuboid
+        priority: 0
+    nether-invasion:
+        min: {x: 24, y: 56, z: 127}
+        max: {x: 181, y: 98, z: 212}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    unknown-lobby:
+        min: {x: -8, y: 263, z: -559}
+        max: {x: 16, y: 279, z: -537}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    hub:
+        min: {x: -74, y: 24, z: -114}
+        max: {x: 83, y: 73, z: 48}
+        members: {}
+        flags: {use: deny, leaf-decay: deny, block-trampling: deny, interact: deny,
+            vehicle-destroy: deny, use-dripleaf: deny, pvp: deny, mob-spawning: deny,
+            block-place: deny, firework-damage: deny, natural-hunger-drain: deny,
+            vehicle-place: deny, wind-charge-burst: deny, fall-damage: deny, item-frame-rotation: deny,
+            block-break: deny, tnt: deny, use-anvil: deny, respawn-anchors: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    houses:
+        min: {x: -52, y: 93, z: -349}
+        max: {x: 112, y: 146, z: -187}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    houses-lobby:
+        min: {x: 301, y: 52, z: -294}
+        max: {x: 326, y: 71, z: -270}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    unknown-arena:
+        min: {x: -70, y: 5, z: -623}
+        max: {x: 93, y: 73, z: -462}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    towers-lobby:
+        min: {x: -363, y: 141, z: -299}
+        max: {x: -336, y: 156, z: -276}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    towers:
+        min: {x: -443, y: 77, z: -80}
+        max: {x: -246, y: 135, z: 43}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
         priority: 0

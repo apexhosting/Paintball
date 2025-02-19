@@ -1,0 +1,38 @@
+location: world:25.500:42.900:-34.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7&nPaintball Rifle |'
+    height: 0.3
+  - content: 'Times Used: %paintball_rifle_times_used%'
+    height: 0.3
+  - content: 'Shots Fired: %paintball_rifle_shots_fired%'
+    height: 0.3
+  - content: 'Accuracy: %paintball_rifle_accuracy%'
+    height: 0.3
+  actions: {}
+- lines:
+  - content: '&6&nPaintball Shotgun |'
+    height: 0.3
+  - content: 'Times Used: %paintball_shotgun_times_used%'
+    height: 0.3
+  - content: 'Shots Fired: %paintball_shotgun_shots_fired%'
+    height: 0.3
+  - content: 'Accuracy: %paintball_shotgun_accuracy%'
+    height: 0.3
+  actions: {}
+- lines:
+  - content: '&b&nPaintball Machinegun |'
+    height: 0.3
+  - content: 'Times Used: %paintball_machine_gun_times_used%'
+    height: 0.3
+  - content: 'Shots Fired: %paintball_machine_gun_shots_fired%'
+    height: 0.3
+  - content: 'Accuracy: %paintball_machine_gun_accuracy%'
+    height: 0.3
+  actions: {}
