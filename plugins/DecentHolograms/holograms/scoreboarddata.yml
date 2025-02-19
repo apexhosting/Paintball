@@ -1,0 +1,33 @@
+location: world:25.600:42.900:-39.250
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&nGame Data |'
+    height: 0.3
+  - content: 'Games Played: %paintball_games_played%'
+    height: 0.3
+    offsetZ: 0.28
+  - content: 'Games Won: %paintball_games_won%'
+    height: 0.3
+    offsetZ: 0.09
+  - content: 'Games Lost: %paintball_games_lost%'
+    height: 0.3
+    offsetZ: 0.13
+  - content: 'Kills: %paintball_kills%'
+    height: 0.3
+    offsetZ: -0.34
+  - content: 'Deaths: %paintball_deaths%'
+    height: 0.3
+    offsetZ: -0.17
+  - content: 'KD Ratio: %paintball_kd%'
+    height: 0.3
+    offsetZ: 0.07
+  - content: 'Revives: %paintball_revives%'
+    height: 0.3
+    offsetZ: -0.13
+  actions: {}

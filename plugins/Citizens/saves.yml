@@ -1,0 +1,275 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 5
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: Towers
+    uuid: 16dc9a2c-1cd5-446a-995a-c0714b5f0d2a
+    traits:
+      spawned: true
+      owner:
+        uuid: 5d57dd43-a339-413f-b4d0-9c0ada82691b
+      location:
+        bodyYaw: -93.27948
+        world: world
+        x: -69.474
+        y: 39.0
+        z: -36.5048
+        yaw: -93.2795
+        pitch: 2.0E-4
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      skintrait:
+        signature: gWNpTPVYfeGvMohW7TntpiORXzIlW6v+rm4rmCYW+03i1OW+RIXJtObZRzvPGLjMKpGNsJdQCLPd5acqgNWMqSf80H/mCET88PdyKVCU/BQoaFEwEwfLfpFWw89PERSacuFzeiz/c+rhLopy77ku7nyC26mrLaQq9kK/3VyAaGk7vxuroCK65UPJFfdzjbbGMxk1XRIO/3pwEA/WJeeLerKWSV+oUodjNErHXjvRwVmb+xKyKSqmX89hcyy+3klFlk/r+gnjo6rAWL9O2ZXNa17pXZ0sV59Xz8opgx2ApJoQEZOlxOZ0D0CA6A7aHWQateq7Wp3hVOHUazHooAgEdyd3EbvU0mEO2AW+4QmBROXAaHJlIBS0SQXIDASGg5yyosoONIy4Q7BImENif3tp0qYAlIDoV48yRETbtv05/NY7FQlyFtUB+LzSq/uF5SfUjc/D+aLbUjTfT3pFa82p+aOOoaPBJfbQk3QD7tR3udgFdqgrhOWADAdWe3s1E3hYTihVz+/celJ3O4rDBsSKhnvE72mx8DQzoyUbnvCEiPtx+XDJ/QnVoxJ71UcqdfuYngIyy3qNMR/6AgqkpWnJfJo8R1pRmV40LtxZTksAoOpJz7+jEtEAcge+vD132fx1ddHgpLDJL52yFvttJYWDWm+Gg++44Oj9g1Twj3vOf7Q=
+        skinName: ApexHosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczODIxMzE5NTU3OCwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+      type: PLAYER
+      commandtrait:
+        commands:
+          '1':
+            command: pb join Towers
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 10.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory:
+        '0':
+          type: iron_horse_armor
+          amount: 1
+      equipment:
+        hand:
+          type: iron_horse_armor
+          amount: 1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,equipment,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '1':
+    metadata:
+      cached-skin-uuid: 28bb290c-cce5-481c-b158-d7f9a042100d
+      cached-skin-uuid-name: spiderrobotman
+    name: Nether Invasion
+    uuid: aa099c6c-7eea-4d77-83fc-0d281901556f
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      commandtrait:
+        commands:
+          '0':
+            command: pb join NetherInvasion
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 10.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      type: PLAYER
+      owner:
+        uuid: 5d57dd43-a339-413f-b4d0-9c0ada82691b
+      skintrait:
+        signature: Q0RGTZ09k2z1b6iId1BWYOhqHNHhrLTa2Zk+BBOJ7rPrN3zBtMj2BoDNIYyjcPuLQIk19NwgIUAB6hv7kV3Q5lqHOyQ555UDY6B1WTtD+sOm5IukJrsdIg5g9+tk7Pd4G93CJckmfwn7pdFF7flBvobNJkr5Jubmbs7a4qShU8QeiZzsfp6gN7fDGT3oBzqMImrsDJ2wqat+0c+W1UyyPHj0zUVZGrKmIiPxGH8IpUXHdOSh57lPvQAG1uqlsAHmzfCco8hNsxizaegfSP/HFKW8QYul3etOkjbFrWpinEq8OqeoWwcxFNzgNsKCwv7+IOTzRnHJFE9VSpxMLSU/IrsmB6TVcvMOns6h5BgN1Nu6BVQbQMtMwBJSEcBgvjIk96eRCp48hdZinscYNTPj54sILYU7ekDH3sQHFygXHlYz/ZCKtce85rG6BduewO+ITxGwZFcggfEU2apNaF+T7c/lkY9DrsUS0JffreqCihIlVXwfNePSU8VH/PsCWpjsMJCuuFoOjJHqoYqumYWemUwhndhfQn6fFA1l8XK6Q5MwTlAbwAGUlf7Fg3ci95MBHurLwg+RKhRHi3nMJ4l43RQRp5PN9pbCORIgCu3ELm5ZjVT6YVttJiaQT7NRxCQsWc3zRliiO3wZMioGO3jdOqmQKamoQbzXqnEaDi1Qfd0=
+        skinName: SpiderRobotMan
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczODI3NjY0NDAwNSwKICAicHJvZmlsZUlkIiA6ICIyOGJiMjkwY2NjZTU0ODFjYjE1OGQ3ZjlhMDQyMTAwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGlkZXJSb2JvdE1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iOTdkNzM3YjBiMGNjMWI0ODU1YTBiYTQ4NzE3Y2ZkZGEwZDgzYjVlYjkxMzBmMzk5MjI2YmYwYjVkZWMzMGMwIgogICAgfQogIH0KfQ==
+      location:
+        bodyYaw: -142.45264
+        world: world
+        x: -48.5952
+        y: 39.0
+        z: 15.5155
+        yaw: -142.4526
+        pitch: 1.0E-4
+      inventory:
+        '0':
+          type: iron_horse_armor
+          amount: 1
+      equipment:
+        hand:
+          type: iron_horse_armor
+          amount: 1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,equipment,location,inventory,poses,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '3':
+    name: axolotl
+    uuid: 59fad91c-500f-45fe-abb7-26941151d466
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      type: AXOLOTL
+      owner:
+        uuid: 5d57dd43-a339-413f-b4d0-9c0ada82691b
+      location:
+        bodyYaw: -25.902573
+        world: world
+        x: -52.667
+        y: 37.58
+        z: 7.6684
+        yaw: -25.9026
+        pitch: 0.0
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,lookclose,location,anchors,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      nameplate-visible: 'false'
+  '4':
+    metadata:
+      cached-skin-uuid: 5a32cd55-9e5f-43bf-9b63-b602a19571a2
+      cached-skin-uuid-name: chesvin1
+    name: Houses
+    uuid: d045546b-39ba-44f5-80ea-bd222a193ec5
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      spawned: true
+      type: PLAYER
+      owner:
+        uuid: 5d57dd43-a339-413f-b4d0-9c0ada82691b
+      skintrait:
+        signature: cXMWWsTafaanVfJPqEfvIEX1wbt/3bEw8Okic+N/L9wF1vuY8jcAuT4PvoNDFATngb5gXzb4NrhsXTKKSvqH7GHQeI24Cte60sqOEL0xS22PI4AtdPtzXaUgkJVlfFMKyA+n7kn/muOSMIq9U2Z5MWcgOFyu0PChn853P12tKV9an0fAbbTMY1SCUs733Kv+w5APR4mBwLNEtRmYTL4klCDbfbiO6lFpt711BCwtOhq+y3eZoTU/M9W2I87IfTo5zxDoEFJT9XD/ZFvEEiBy9p4GM4yhQijrqMkMlynyfFAC4mQkvyGtPK2kaWmDmQ727M19W9nud6nVE5IKTENDsub92boEPVcl0XNzLVvRBE79WGTPLFVHtuYRBY9j0Lq5Ii7MlbCg2L09OQZ0gRsbEN2GtL8t4mdSongwQk3KGghB2mS4Sa4BoZNlnrGta9P/0pHkacffS4xbl1vE/6C2VVtHEHqGGxCo94M1EoH2ZhSEBu7NvZufno6nnQl95vIC5E0GgaYUN37+0cfOvyaJFmEOtmQzsOIZGiTRGbFWFycLWCZjEvYw4KYCOw6aU6DhxQ6j7fxGoLhzhB2UxwaBNXzeWLP3EGYmhr9nx6TNwfA7MD2/Jp4SR1Se/ou24f4X4TVhlAJocFRVHyl7z4+ueCp78bZLVP5FC+4EjXSlz+Q=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczODcwMzExNDY1MiwKICAicHJvZmlsZUlkIiA6ICI1YTMyY2Q1NTllNWY0M2JmOWI2M2I2MDJhMTk1NzFhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGVzdmluMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81N2E3NTJlNTYxYzhiMmU3ODRiNWNiMTUxMTJlNWE2MzRjNzcwMmRjN2ZhYzk1OWJhMzM0YWU4ODljNmFjZTM3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0=
+        skinName: Chesvin1
+      location:
+        bodyYaw: -44.100952
+        world: world
+        x: -48.6192
+        y: 39.0
+        z: -88.4668
+        yaw: -44.101
+        pitch: -2.5501
+      commandtrait:
+        commands:
+          '0':
+            command: pb join Houses
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      inventory:
+        '0':
+          type: iron_horse_armor
+          amount: 1
+      equipment:
+        hand:
+          type: iron_horse_armor
+          amount: 1
+    traitnames: scoreboardtrait,owner,spawned,commandtrait,skintrait,equipment,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '5':
+    name: Arena ???
+    uuid: 36a6f372-99e6-4397-80f7-a4ab5213c426
+    traits:
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: pb join ???
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      owner:
+        uuid: 5d57dd43-a339-413f-b4d0-9c0ada82691b
+      spawned: true
+      location:
+        bodyYaw: -1.6508179
+        world: world
+        x: 29.6431
+        y: 44.0
+        z: -77.0897
+        yaw: -1.6508
+        pitch: -2.7
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 10.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: yjY9B1tzwk5xGYyS92qwpNQuWv3Owmo4GQ4BwOY+8DCqrHxEqwO8kwtBFpAcPeMJ/gQe/YI5T4ebiLD890QJeCi2HeiNR3dBRPMPzXcqBsFkx2wGFe/3TSQz3mbwyMqWTcbs9/vm+dtR7ABYvnRCRsTgU1VAcwZCRKKhAv2jYiPNbj1LcY5xXmMj2kO/KhXPjMA5A4x7ycnbi00IytoVdZZfikQWIbgQ6fknBvFHChmKXGLhzDVzEkQ9LlrB4WZMfenpEDpGLJfJeN9UBQ2AtPQt5EdDWwCDWZl5JZrzPLBx0RFGxv8A8PDAq6qeVCEl1/Gyc7XZxq7IVQsDMqrN3DgppfhkNJX8ji8rvLhLReccMJAaDtc5YjO3F97SVylF702un9z1d0SHl1jGTy8uRuVKS70rDvyuhILf+ro1GYCxVUt3DR9WdmOWEYRrMqONCgPmB7vatAZIf/Klc0ujhTjqZ8eG5wdYIhlVBtPWXZ6Mhg/myVXgAsJVpnSfz0AcfFi5DBHn6BCXmbIXwHa6IL2IdsENvRbcF9bG7wC7nioMvX1foC3l29gim6fJE5pv6bzdWJW1WLVzuF7u3bnMqduXdF+B1GJac8pRjWY+Vjo8KTWclFn2VacMoWveA69gnUF9G6If+KR/1OwoZpB9tLlDewl1ZmXIw3zoh2atFiU=
+        skinName: aaron1998ish
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTMwODU4OTM5MCwKICAicHJvZmlsZUlkIiA6ICI5Y2Q0MTk4NDk4MTc0YjZjYThlN2ZlNGQzM2QxZTZjYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhYXJvbjE5OThpc2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU3YzNkNWJjODQ2NzNiZWY1Nzk3ODQ4MDE5NWE0YmMzNWMxOWMxYWMxMGY5ZTJkMWQ4NWE5YzhkMzZhYzNiMiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlhNzY1Mzc2NDc5ODlmOWEwYjZkMDAxZTMyMGRhYzU5MWMzNTllOWU2MWEzMWY0Y2UxMWM4OGYyMDdmMGFkNCIKICAgIH0KICB9Cn0=
+      inventory:
+        '0':
+          type: iron_horse_armor
+          amount: 1
+      equipment:
+        hand:
+          type: iron_horse_armor
+          amount: 1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,equipment,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 9cd41984-9817-4b6c-a8e7-fe4d33d1e6cb
+      cached-skin-uuid-name: aaron1998ish

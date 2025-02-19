@@ -4,12 +4,12 @@ banned-players.json
 cache/*
 commands.yml
 eula.txt
-*.yml
 libraries/*
 logs/*
 ops.json
-plugins/Essentials/usermap.csv
 plugins/WorldEdit/.archive-unpack/*
+plugins/MinecraftPaintball/player_stats/*
+plugins/Essentials/userdata/*
 usercache.json
 versions/*
 version_history.json
@@ -17,4 +17,3 @@ whitelist.json
 world/advancements/*
 world/playerdata/*
 world/stats/*
-

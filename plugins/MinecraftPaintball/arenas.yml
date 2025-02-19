@@ -1,0 +1,33 @@
+arenas:
+  NetherInvasion:
+    schematic: arenanether.schem
+    position: world=world,x=27,y=60,z=155
+    spawns:
+      ember:
+      - x=170,y=71,z=139,facing=west
+      ice:
+      - x=32,y=72,z=139,facing=south
+  Towers:
+    schematic: arenatowers.schem
+    position: world=world,x=-260,y=97,z=-22
+    spawns:
+      ember:
+      - x=-421,y=97,z=-20,facing=north
+      ice:
+      - x=-270,y=97,z=-6,facing=south
+  Houses:
+    schematic: arenahouses.schem
+    position: world=world,x=101,y=105,z=-276
+    spawns:
+      ember:
+      - x=83,y=105,z=-220,facing=west
+      ice:
+      - x=-17,y=105,z=-320,facing=east
+  hub:
+    schematic: hubarena.schem
+    position: world=world,x=10,y=23,z=-542
+    spawns:
+      ember:
+      - x=36,y=29,z=-503,facing=north
+      ice:
+      - x=38,y=29,z=-583,facing=south
